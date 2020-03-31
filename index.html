@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yuvaa | Student Organization</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">  <!--  Fontawesome Bootstrap CDN Link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  <!-- Animation On Scroll CDN Link -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/my-slider.css"/>
+  <script src="js/ism-2.2.min.js"></script>
+  <script type="text/javascript" src=""></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <link rel = "icon" href = "images/Yuvaa_Title_Icon.png" type = "image/x-icon"> 
+
+
+  <style>
+
+        body
+          {
+            /*height: 5000px;*/
+            /*background: red;*/
+          }
+          .NavBreakSpace
+          {
+            width: 100%; height: 60px;
+          }
+          h1
+            {
+              color: #333;
+              /*background: transparent;*/
+            }
+          
+        @media (max-width:768px)
+          {
+            h1
+            {
+              font-size: 22px;
+            }
+            .Team_Section .OB_Members_Title, .Past_Event
+            {
+              font-size: 16px;
+              font-weight: 200;
+            }
+          }
+  </style>
+
+
+</head>
+<body>
+<!-- HTML - Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+  <a name="top"></a>
+  <!-- //////////////////////////////////////////- Navigation Bar - Start -///////////////////////////////////// -->
+        <div class="Header_Section">
+          <div class="logo">
+            <a href="#"><h class="Yuvaa">YUVAA</h></a>
+          </div>
+
+          <div class="navbar">
+
+            <div class="icon-bar" onclick="Show()"> <!-- &#9776; -->
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+
+            <ul id="nav-lists">
+              <li class="close"><span onclick="Hide()">&times;</span></li> <!-- &times; or x -->
+              <li><a href="#top" onClick="Reload(this)">Home<i class="fa fa-home" aria-hidden="true"></i></a></li>
+              <li><a href="#about">About<i class="fa fa-address-card" aria-hidden="true"></i></a></li>
+              <li><a href="#team">Team<i class="fa fa-group" aria-hidden="true"></i></a></li>
+              <li><a href="#event">Event<i class="fa fa-calendar" aria-hidden="true"></i></a></li>
+              <li><a href="#join">Join<i class="fa fa-handshake-o" aria-hidden="true"></i></a></li>
+              <li><a href="#contact">Contact<i class="fa fa-info" aria-hidden="true" style="padding-right: 10px;"></i></a></li>
+            </ul>
+
+          </div>
+        </div>
+  <!-- //////////////////////////////////////////- Navigation Bar - End -/////////////////////////////////////// -->
+  <div class="NavBreakSpace"></div>
+
+
+
+  <!-- //////////////////////////////////////////- Image Slider - Start -/////////////////////////////////////// -->
+        <div class='container'>
+          <div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-buttons="false" id="my-slider">
+            <ol>
+              <li>
+                <!-- <img src="images/slides/YPL - YuvaaPremierLeague.png"> -->
+                <div style="width: 100%; height: 100%; background: #206FFF; display: flex; justify-content: center; align-items: center;">
+                  <h1 style="color: #fff; text-shadow: 1px 2px 10px rgba(0,0,0,0.8); font-size: 60px;">Welcome!</h1>
+                </div>
+              </li>
+              <li>
+                <img src="images/slides/beautiful-701678_1280.jpg">
+              </li>
+              <li>
+                <img src="images/slides/summer-192179_1280.jpg">
+              </li>
+              <li>
+                <img src="images/slides/city-690332_1280.jpg">
+              </li>
+              <li>
+                <img src="images/slides/bora-bora-685303_1280.jpg">
+              </li>
+            </ol>
+          </div>
+        </div>
+  <!-- //////////////////////////////////////////- Image Slider - End -///////////////////////////////////////// -->
+  <div class="SliderBottom"></div>
+
+
+
+  <a name="about" style="position: relative; top: -60px"></a>
+  <!-- //////////////////////////////////////////- About - Start -////////////////////////////////////////////// -->
+    <div class="AboutUs_Section">
+      <h1 class="AboutUs" data-aos="fade-right" style="overflow: hidden;">About Us</h1>
+      <div class="AboutUs_Container">
+        <div class="element"></div>
+        <div class="AboutUs_Content">
+          <h2 class="SO">Student Organization</h2>
+          <img src="images/Yuvaa_Logo.png" alt="YvaaLogo" class="YuvaaLogo">
+            <h4 class="UADSWLPU">Under the Aegis of Division of Student Welfare, Lovely Professional University</h4>
+          <p class="AboutUs_Para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit beatae sed cupiditate natus, voluptas quia enim nesciunt iure iusto perspiciatis cum corporis a quasi consequatur, porro laboriosam nemo rem, animi.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, molestias sapiente similique expedita placeat quas. Veritatis nam, asperiores quod a voluptate eveniet aliquam id, deserunt, voluptatibus enim, vero totam non!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni accusamus corporis eum praesentium possimus nulla, rerum dolorum maxime iusto tenetur voluptatibus delectus, nisi rem itaque ut quisquam sit quasi obcaecati?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, possimus est. Dicta omnis cum inventore velit. Fugit vitae magnam tempore esse voluptatum obcaecati, a quos sapiente, nesciunt ad nam, nobis!
+          </p>
+        </div>
+      </div>
+    </div>
+  <!-- //////////////////////////////////////////- About - End -//////////////////////////////////////////////// -->
+
+
+
+  <a name="team" style="position: relative; top: -60px"></a>
+  <!-- //////////////////////////////////////////- Team - Start -/////////////////////////////////////////////// -->
+    <h1 class="Team" data-aos="fade-right" style="overflow: hidden;">Team</h1>
+    <div class="Team_Section">
+      <h2 class="OB_Members_Title">OB Members</h2><br>
+      <div class="OB_Members">
+          
+
+          <div class="Member_Details" data-aos="flip-right" style="overflow: hidden;">
+            <div class="Profile_Photo" id="p1">
+              <div class="Members_Social_Media">
+                <a href="#" class="fa fa-instagram" id="insta"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="Details">
+              <h3 class="Member_Name">Arshad Siddiqui</h3>
+              <p class="Member_Post">CTO | Graphic Designer & Developer</p>
+              <p class="Degree">B.Tech (Computer Science & Engineering)<br>Lovley Professional University</p>
+            </div>
+          </div>
+          
+          <div class="Member_Details" data-aos="flip-right" style="overflow: hidden;">
+            <div class="Profile_Photo" id="p2">
+              <div class="Members_Social_Media">
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="Details">
+              <h3 class="Member_Name">Arshad Siddiqui</h3>
+              <p class="Member_Post">CTO | Graphic Designer & Developer</p>
+              <p class="Degree">B.Tech (Computer Science & Engineering)<br>Lovley Professional University</p>
+            </div>
+          </div>
+
+          <div class="Member_Details" data-aos="flip-right" style="overflow: hidden;">
+            <div class="Profile_Photo" id="p3">
+              <div class="Members_Social_Media">
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="Details">
+              <h3 class="Member_Name">Arshad Siddiqui</h3>
+              <p class="Member_Post">CTO | Graphic Designer & Developer</p>
+              <p class="Degree">B.Tech (Computer Science & Engineering)<br>Lovley Professional University</p>
+            </div>
+          </div>
+
+          <div class="Member_Details" data-aos="flip-right" style="overflow: hidden;">
+            <div class="Profile_Photo" id="p4">
+              <div class="Members_Social_Media">
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="Details">
+              <h3 class="Member_Name">Arshad Siddiqui</h3>
+              <p class="Member_Post">CTO | Graphic Designer & Developer</p>
+              <p class="Degree">B.Tech (Computer Science & Engineering)<br>Lovley Professional University</p>
+            </div>
+          </div>
+        <!-- </div> -->
+
+         
+
+          <div class="Member_Details" data-aos="flip-left" style="overflow: hidden;">
+            <div class="Profile_Photo" id="p5">
+              <div class="Members_Social_Media">
+                <a href="#" class="fa fa-instagram" id="insta"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="Details">
+              <h3 class="Member_Name">Arshad Siddiqui</h3>
+              <p class="Member_Post">CTO | Graphic Designer & Developer</p>
+              <p class="Degree">B.Tech (Computer Science & Engineering)<br>Lovley Professional University</p>
+            </div>
+          </div>
+          
+          <div class="Member_Details" data-aos="flip-left" style="overflow: hidden;">
+            <div class="Profile_Photo" id="p6">
+              <div class="Members_Social_Media">
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="Details">
+              <h3 class="Member_Name">Arshad Siddiqui</h3>
+              <p class="Member_Post">CTO | Graphic Designer & Developer</p>
+              <p class="Degree">B.Tech (Computer Science & Engineering)<br>Lovley Professional University</p>
+            </div>
+          </div>
+
+          <div class="Member_Details" data-aos="flip-left" style="overflow: hidden;">
+            <div class="Profile_Photo" id="p7">
+              <div class="Members_Social_Media">
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="Details">
+              <h3 class="Member_Name">Arshad Siddiqui</h3>
+              <p class="Member_Post">CTO | Graphic Designer & Developer</p>
+              <p class="Degree">B.Tech (Computer Science & Engineering)<br>Lovley Professional University</p>
+            </div>
+          </div>
+
+          <div class="Member_Details" data-aos="flip-left" style="overflow: hidden;">
+            <div class="Profile_Photo" id="p8">
+              <div class="Members_Social_Media">
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="Details">
+              <h3 class="Member_Name">Arshad Siddiqui</h3>
+              <p class="Member_Post">CTO | Graphic Designer & Developer</p>
+              <p class="Degree">B.Tech (Computer Science & Engineering)<br>Lovley Professional University</p>
+            </div>
+          </div>
+
+          <div class="Member_Details" data-aos="flip-right" style="overflow: hidden;">
+            <div class="Profile_Photo" id="p8">
+              <div class="Members_Social_Media">
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="Details">
+              <h3 class="Member_Name">Arshad Siddiqui</h3>
+              <p class="Member_Post">CTO | Graphic Designer & Developer</p>
+              <p class="Degree">B.Tech (Computer Science & Engineering)<br>Lovley Professional University</p>
+            </div>
+          </div>
+
+          <div class="Member_Details" data-aos="flip-right" style="overflow: hidden;">
+            <div class="Profile_Photo" id="p8">
+              <div class="Members_Social_Media">
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="Details">
+              <h3 class="Member_Name">Arshad Siddiqui</h3>
+              <p class="Member_Post">CTO | Graphic Designer & Developer</p>
+              <p class="Degree">B.Tech (Computer Science & Engineering)<br>Lovley Professional University</p>
+            </div>
+          </div>
+
+          <div class="Member_Details" data-aos="flip-right" style="overflow: hidden;">
+            <div class="Profile_Photo" id="p8">
+              <div class="Members_Social_Media">
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="Details">
+              <h3 class="Member_Name">Arshad Siddiqui</h3>
+              <p class="Member_Post">CTO | Graphic Designer & Developer</p>
+              <p class="Degree">B.Tech (Computer Science & Engineering)<br>Lovley Professional University</p>
+            </div>
+          </div>
+
+          <div class="Member_Details" data-aos="flip-right" style="overflow: hidden;">
+            <div class="Profile_Photo" id="p8">
+              <div class="Members_Social_Media">
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            <div class="Details">
+              <h3 class="Member_Name">Arshad Siddiqui</h3>
+              <p class="Member_Post">CTO | Graphic Designer & Developer</p>
+              <p class="Degree">B.Tech (Computer Science & Engineering)<br>Lovley Professional University</p>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+
+    </div>
+  <!-- //////////////////////////////////////////- Team - End -///////////////////////////////////////////////// -->
+
+
+
+  <a name="event" style="position: relative; top: -60px"></a>
+  <!-- //////////////////////////////////////////- Event - Start -////////////////////////////////////////////// -->
+    <h1 class="Event_Title" style=" background: #fff; overflow: hidden;" data-aos="fade-right">Event</h1>
+    <div class="Event_Section">
+      <h2 class="Past_Event">Past Event</h2>
+      <div class="Event_Container">
+        <div class="Event_Poster">
+          <img src="./images/YuvaaGirlScript(GirlCoder).png" alt="" id="eventPoster">
+        </div>
+        <div class="Event_Content">
+          <p id="eventContent">
+            <span style="font-size: 24px; font-weight: bold;">GirlCoder</span>
+            1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nemo laborum, dolores excepturi sed, natus recusandae harum in, sit magni quas eos nostrum consectetur optio eveniet at ipsa aliquid architecto.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima neque voluptates, optio ad perferendis earum quisquam iusto veniam, fuga, unde incidunt accusantium in molestias, minus corrupti blanditiis illum nemo sed!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, voluptatum, dolore. Excepturi tempora voluptate, harum expedita. Facere aliquam, alias labore assumenda nesciunt accusantium voluptatum saepe, animi optio voluptate inventore quo.
+          </p>
+        </div>
+      </div>
+        <div class="ListBars"><img src="./images/List1.png" alt="ListBars" id="listBar"></div>
+        <div class="Event_Buttons">
+          <div class="Prev_Button" id="prevButton" onclick="ChangeEvent('prevEvent')">Prev</div>
+          <div class="Next_Button" id="nextButton" onclick="ChangeEvent('nextEvent')">Next</div>
+        </div>
+    </div>
+  <!-- //////////////////////////////////////////- Event - End -//////////////////////////////////////////////// -->
+
+
+
+  <a name="join" style="position: relative; top: -60px"></a>
+  <!-- //////////////////////////////////////////- Join - Start -//////////////////////////////////////////////// -->
+    <h1 class="JoinUs" data-aos="fade-right" style="overflow: hidden;">Join Us</h1>
+    <div class="JoinUs_Main_Section">
+      <div class="JoinUs_Main_Section_Content" id="JoinUs_Main_Section_Content">
+      </div>
+      <div class="JoinUs_Section" id="JoinUs_Section">
+        <img src="images/JoinUs.jpg" alt="JoinUs">
+        <h3 class="JoinUs_Title">Join Us</h3>
+        <form action="" method="POST" id="joinUsForm">
+          <input type="text" id="ju_name" name="name" value="" placeholder="Full Name" required><br>
+          <input type="tel" id="ju_mobile_number" name="mobile_number" value="" placeholder="Contact Number" required><br>
+          <input type="text" id="ju_email" name="email" value="" placeholder="Email" required><br>
+
+          <select id="ju_university" name="university" size="0">
+            <option value="Lovely Professional University" selected>Lovely Professional University</option>
+            <option value="Punjab University">Punjab University</option>
+            <option value="Chandigarh University">Chandigarh University</option>
+          </select>
+          <input type="text" id="ju_graduation" name="graduation" value="" placeholder="B.Tech(CSE)" required><br>
+          <input type="number" id="ju_regNo" name="reNo" value="" placeholder="Registration Number" required><br>
+
+          <textarea id="ju_message" name="message" rows="4" cols="30" value="" maxlength="100" placeholder="Why do you want to join us?" required></textarea><br>
+
+          <input type="submit" id="submit" onclick="Submit()" value="Submit">
+        </form>
+        <div class="trigger_Button" onclick="Toggle()">
+          <h5 class="Button_Text">JOIN US</h5>
+          <i class="fa fa-chevron-down" aria-hidden="true" id="this"></i>
+        </div>
+      </div>
+    </div> 
+  <!-- //////////////////////////////////////////- Join - End -////////////////////////////////////////////////// -->
+
+
+
+  <a name="contact" style="position: relative; top: -60px;"></a>
+  <!-- //////////////////////////////////////////- Contact - Start -///////////////////////////////////////////// -->
+
+        <h1 class="ContactUs_Title" data-aos="fade-right" style="overflow: hidden;">Contact Us</h1>
+
+        <div class="Contact_Section">
+
+          <div class="ContactUs_Form">
+            <p class="form_Discription">Please fill this form in a decent manner</p>
+            <form action="" method="POST" id="contactUsForm">
+              <div class="Input Name">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" id="name" name="name" value="" placeholder="Full Name" required><br>
+              </div>
+              <div class="Input Mobile_Number">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <input type="tel" id="mobile_number" name="mobile_number" value="" placeholder="Contact Number" required><br>
+              </div>
+              <div class="Input Emaile">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <input type="text" id="email" name="email" value="" placeholder="Email" required><br>
+              </div>
+              <div class="Input Message">
+                <i class="fa fa-comment" aria-hidden="true"></i>
+                <textarea id="message" name="message" rows="6" cols="30" placeholder="Message......" required></textarea><br>
+              </div>
+              <input type="submit" id="Send" onclick="Send()" value="Send &#187;">
+            </form>
+          </div>
+
+          <div class="Google_Map">
+            
+            <div class="Location">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <p class="Address">Lovely Professional University (Punjab), India</p>
+            </div>
+            <div class="Map">
+              <i class="fa fa-map" aria-hidden="true"></i>
+              <!-- <div id="googleMap" style="width:100%; height:250px;"></div> -->
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1249.2858945792377!2d75.7058508504878!3d31.255716094669996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5a594d22b88d%3A0x4cc934c58d0992ec!2sLovely%20Professional%20University!5e0!3m2!1sen!2sin!4v1584626410327!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+          
+        </div>
+  <!-- //////////////////////////////////////////- Contact - End -/////////////////////////////////////////////// -->
+
+
+
+  <!-- //////////////////////////////////////////- Footer - Start -////////////////////////////////////////////// -->
+
+    <footer>
+      <div class="footerSection">
+        <div class="footer_Contact">
+          <div class="Contact_Details" data-aos="fade-up" style="overflow: hidden;">
+          <h1 class="footer_Contact_Title" style="color: #fff;">Contact Us</h1>
+            <p><i class="fa fa-whatsapp"></i>9161757683, 9161757683</p>
+            <p><i class="fa fa-envelope-o" aria-hidden="true"></i></i>arshadsiddiqui36@gmail.com</p>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i>Lovely Professional University (Punjab), India</p>
+          </div>
+        </div>
+
+        <!-- //////////////////////////////Social Media///////////////////////////// -->
+        <div class="SocialMedia_Section" data-aos="fade-up" style="overflow: hidden;">
+          <h1 class="followUs" style="color: #fff;">Follow Us</h1>
+          <div class="SocialMedia_Links">
+            <a href="#facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#instagram" ><i class="fa fa-instagram"></i></a>
+            <a href="#linkedin" ><i class="fa fa-linkedin"></i></a>
+            <a href="#twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#googleplus"><i class="fa fa-google-plus"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="Copyrights">
+        <p><span style="margin: 2px">&copy;</span>Copyright 2019-2020 Yuvaa. All Rights Reserved</p>
+        <!-- <small>&copy; Copyright {{currentYear}}, Example Corporation</small> -->
+        <!-- var d = new Date();
+        page.currentYear = d.getFullYear(); -->
+      </div>
+    </footer>
+  <!-- //////////////////////////////////////////- Footer - End -//////////////////////////////////////////////// -->
+
+
+
+  <!-- //////////////////////////////////////////- Signature - Start -/////////////////////////////////////////// -->
+    <div class="Signature_Section">
+      <div class="SignatureUIImage">
+        <img src="images/WebUISignature.png" alt="SignatureProfile" id="Signature"> 
+      </div>
+      <div class="iButton">
+        <div class="iButtonBack"></div>
+        <div class="iButtonFront" id="iButtonFront" onclick="iButton()" title="Designer & Developer">!</div>
+      </div>
+    </div>
+  <!-- //////////////////////////////////////////- Signature - End -///////////////////////////////////////////// -->
+
+
+
+
+
+<!-- HTML - End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+
+
+
+<!-- Java Script - Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+  <script type="text/javascript">
+    AOS.init();
+  </script>
+
+
+  <!-- //////////////////////////////////////////- Navigation Bar - Start -/////////////////////////////////// -->
+      <script>
+        var navList = document.getElementById("nav-lists");
+        function Show() {
+          navList.classList.add("_Menus-show");
+        }
+
+        function Hide(){
+          navList.classList.remove("_Menus-show");
+        }
+      </script>
+
+      <script type="text/javascript">
+        function Reload(x)
+        { 
+          // window.location.reload();                       
+        }
+      </script>
+  <!-- //////////////////////////////////////////- Navigation Bar - End -///////////////////////////////////// -->
+
+
+
+  <!-- /////////////////////////////////////////- Event - Start -////////////////////////////////////////////// -->
+    <script type="text/javascript">
+      
+      var eventPosters = ["./images/YuvaaGirlScript(GirlCoder).png", "./images/CyberhackVillage1.0.png",
+                "./images/Quiz-O-Mania.jpg", "./images/GameDevelopment.png"];
+
+      var listBars = ["./images/List1.png", "./images/List2.png", "./images/List3.png", "./images/List4.png"];
+
+      var event = 0;
+
+      var eventDiscription = [
+
+      "<h2>GirlCoder</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsa sed, quas molestias quidem ducimus consectetur neque doloribus vitae quasi blanditiis qui iure, tempore explicabo exercitationem nisi hic officiis eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate vero saepe est culpa! Quis eveniet atque aliquam, beatae iusto dignissimos repellat laboriosam, cupiditate a perferendis saepe, voluptatibus incidunt sint unde!",
+
+      "<h2>Cyberhack Villages 1.0</h2>2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsa sed, quas molestias quidem ducimus consectetur neque doloribus vitae quasi blanditiis qui iure, tempore explicabo exercitationem nisi hic officiis eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate vero saepe est culpa! Quis eveniet atque aliquam, beatae iusto dignissimos repellat laboriosam, cupiditate a perferendis saepe, voluptatibus incidunt sint unde!",
+
+      "<h2>Quiz-O-Mania</h2>3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsa sed, quas molestias quidem ducimus consectetur neque doloribus vitae quasi blanditiis qui iure, tempore explicabo exercitationem nisi hic officiis eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate vero saepe est culpa! Quis eveniet atque aliquam, beatae iusto dignissimos repellat laboriosam, cupiditate a perferendis saepe, voluptatibus incidunt sint unde!",
+
+      "<h2>Game Development</h2>4Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsa sed, quas molestias quidem ducimus consectetur neque doloribus vitae quasi blanditiis qui iure, tempore explicabo exercitationem nisi hic officiis eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate vero saepe est culpa! Quis eveniet atque aliquam, beatae iusto dignissimos repellat laboriosam, cupiditate a perferendis saepe, voluptatibus incidunt sint unde!"
+
+      ];
+
+      function ChangeEvent(param) {
+
+        if(param === 'nextEvent')
+        {
+          event++;
+          if(event === eventPosters.length)
+            {event === eventPosters.length - 1;}
+        }
+        else
+        {
+          event--;
+          if(event < 0) {event = 0;}
+        }
+        if(event < eventPosters.length)
+        {
+          var eventPoster = document.getElementById("eventPoster");
+          eventPoster.src = eventPosters[event];
+
+          var eventContent = document.getElementById("eventContent");
+          eventContent.innerHTML = eventDiscription[event];
+
+          var listBar = document.getElementById("listBar");
+          listBar.src = listBars[event];
+        }
+        else
+        {
+          event--;
+        }
+      }
+    </script>
+  <!-- //////////////////////////////////////////- Event - End -////////////////////////////////////////////// -->
+
+
+
+  <!-- //////////////////////////////////////////- Join - Start -///////////////////////////////////////////// -->
+    <script type="text/javascript">  
+        var show = 1;
+      function Toggle()
+      {
+        if(show == 1)
+          { document.getElementById("this").style = "transform:rotate(180deg)";
+            document.getElementById("JoinUs_Section").style = "left: 0; box-shadow: 2px 0 15px 0 rgba(0,0,0,0.8);";
+            document.getElementById("JoinUs_Main_Section_Content").style = "opacity: 0.5;";
+            show--;
+          }
+        else
+          {
+            document.getElementById("this").style = "transform:rotate(0deg)";
+            document.getElementById("JoinUs_Section").style = "right: 100%";
+            document.getElementById("JoinUs_Main_Section_Content").style = "opacity: 1;";
+            show++;
+          }
+      }
+    </script>
+  <!-- //////////////////////////////////////////- Join Slider - End -//////////////////////////////////////// -->
+
+
+
+
+  <!-- //////////////////////////////////////////- Firebase - Start -//////////////////////////////////////// -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase.js"></script> -->
+    <script src="js/joinUs.js"></script>
+  <!-- //////////////////////////////////////////- Firebase - End -//////////////////////////////////////// -->
+
+
+
+  <!-- //////////////////////////////////////////- Signature Start-//////////////////////////////////////// -->
+    <script type="text/javascript">
+      var show = 1;
+      var Signature = document.getElementById("Signature");
+      function iButton()
+      {
+        if(show == 1)
+        {
+          // Signature.style = "visibility: visible;";
+          Signature.style = "opacity: 1; width:300px;";
+          document.getElementById("iButtonFront").style = "box-shadow: 0 0 5px 1px rgba(0,0,0,0.8);";
+          show++;
+        }
+        else
+        {
+          // Signature.style = "visibility: hidden;";
+          Signature.style = "width: 50px; width:0;"
+          document.getElementById("iButtonFront").style = "box-shadow: none;";
+          show--;
+        }
+      } 
+    </script>
+  <!-- //////////////////////////////////////////- Signature End -///////////////////////////////////////// -->
+
+<!-- Java Script - End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+
+</body>
+</html>
